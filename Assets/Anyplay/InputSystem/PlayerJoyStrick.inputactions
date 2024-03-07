@@ -1,0 +1,34 @@
+{
+    "name": "PlayerJoyStrick",
+    "maps": [
+        {
+            "name": "movement",
+            "id": "c9c99562-3d5d-4bda-94fc-f949c623fdcb",
+            "actions": [
+                {
+                    "name": "Input",
+                    "type": "Value",
+                    "id": "6eecd32d-5a19-4608-9449-d779ea9cac9e",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c3df9a0b-607d-4352-8622-aae314c79795",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Input",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
